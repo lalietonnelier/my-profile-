@@ -1,0 +1,85 @@
+/* Structure de base */
+body {
+    font-family: Georgia, serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+/* En-tête */
+header {
+    background-color: #ffcccb;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Style du texte principal */
+main {
+    margin: 20px;
+}
+
+/* Section "About" */
+.about {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Style pour ma photo */
+.profil-photo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    display: block;
+    margin: 20px auto;
+    border: 4px solid #ff6666;
+
+
+/* Style des liens */
+a {
+    color: #ff6666;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Section des réseaux sociaux */
+.socials {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #e6e6e6;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.socials ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.socials li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.socials a {
+    color: #4a90e2;
+    font-weight: bold;
+}
+
+.socials a:hover {
+    color: #ff6666;
+}
+
+
+footer {
+    background-color: #ffcccb;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
